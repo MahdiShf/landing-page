@@ -1,9 +1,9 @@
 body {
   background-color: black;
+  margin: 0;
 }
 .landing {
   background-color: #1f2937;
-  margin-top: 0px;
 }
 .logo {
   font-size: 17px;
@@ -94,8 +94,6 @@ button:hover {
 
 .img-info {
   width: 135px;
-  font-size: 16px;
-  font-weight: 545;
 }
 .img-info div {
   border: 5px solid rgb(104, 26, 104);
@@ -107,22 +105,19 @@ button:hover {
 
 .quote {
   background-color: #e5e7eb;
-  padding-bottom: 65px;
+  padding: 65px;
 }
 .quote p {
-  margin: 0px;
+  margin-left: 10%;
   text-align: center;
-  padding: 100px 220px 0px;
   width: 800px;
   font-size: 35px;
   color: #1f2937;
   font-style: italic;
   font-weight: lighter;
 }
-.quote h5 {
-  margin: 0px;
-  text-align: right;
-  padding-right: 265px;
+.quote cite {
+  margin-left: 75%;
   font-weight: bolder;
 }
 
@@ -134,7 +129,6 @@ button:hover {
 }
 div.container {
   display: flex;
-  /* padding:  50px; */
   background-color: #3882f6;
   margin: 80px 0px;
   border-radius: 8px;
